@@ -65,7 +65,7 @@ Ensure the output is structured, scannable, and production-ready.
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-goog-api-key': 'AIzaSyB07WETp7JyK396lqWm-gdoQzzcrbY4El0',
+            'X-goog-api-key': import.meta.env.VITE_GEMINI_API_KEY,
           },
           body: JSON.stringify({
             contents: [{ parts: [{ text: prompt }] }],
