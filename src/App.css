@@ -1,0 +1,43 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+}
+
+main {
+  flex: 1;
+}
+
+/* Output styling */
+.output-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+}
+
+.output-pre {
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 0.95rem;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
+.resume-section-title {
+  letter-spacing: 0.05em;
+}
+
+.progress {
+  border-radius: 999px;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+  .output-pre {
+    font-size: 0.9rem;
+  }
+}
